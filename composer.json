@@ -1,0 +1,26 @@
+{
+  "name": "kntpva/blog",
+  "description": "",
+  "keywords": [""],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "kntpva",
+      "email": "1@1.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/support": "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kntpva\\Blog\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "master-dev"
+    }
+  }
+}
